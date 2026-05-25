@@ -1,0 +1,16 @@
+{
+  "name": "eshop-sample-qa-ai-tests",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:tc-0001": "playwright test tests/smoke/checkout/TC-0001.spec.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}

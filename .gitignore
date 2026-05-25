@@ -1,0 +1,15 @@
+.env
+.env.local
+.env.*.local
+!.env.template
+!.env.demo
+
+.auth/
+playwright/.auth/
+test-results/
+playwright-report/
+output/
+.playwright-cli/
+
+node_modules/
+.DS_Store
